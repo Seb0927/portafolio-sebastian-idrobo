@@ -16,5 +16,8 @@ canvas{
 .info{
     position: absolute;
     z-index:1;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
