@@ -11,3 +11,10 @@ body,
 canvas{
     touch-action: none;
 }
+
+
+.info{
+    position: absolute;
+    z-index:1;
+}
+
