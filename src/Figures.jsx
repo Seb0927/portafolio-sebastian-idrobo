@@ -35,19 +35,19 @@ const Figures = (state, delta) => {
       <directionalLight position={[10, 10, 5]} intensity={2} />
 
       {/* Torus (Dona) */}
-      <mesh position={[-3,0,0]} ref={torusRef}>
+      <mesh position={[-3,0,-20]} ref={torusRef}>
         <torusGeometry args={[1]} />
         <meshPhongMaterial color="blue" />
       </mesh>
 
       {/* Cono */}
-      <mesh ref={coneRef}> {/*La referencia a esta figura esta ligada a "coneRef" */}
+      <mesh ref={coneRef} position={[0,0,-20]}> {/*La referencia a esta figura esta ligada a "coneRef" */}
         <coneGeometry args={[1,2,32]} />
         <meshNormalMaterial/>
       </mesh>
 
       {/* Esfera */}
-      <mesh position={[3,0,0]} ref={sphereRef}>
+      <mesh position={[3,0,-20]} ref={sphereRef}>
           <sphereGeometry args={[1, 16, 16]}/>
           <meshLambertMaterial color="green" />
       </mesh>

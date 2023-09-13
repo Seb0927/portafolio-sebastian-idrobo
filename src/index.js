@@ -1,9 +1,11 @@
+import { OrbitControls } from "@react-three/drei";
 import {createRoot} from "react-dom/client";
 import {Canvas} from "@react-three/fiber"
 import Experience from "./Experience";
-import Info from "./Info";
-import Figures from "./Figures"
-import "./styles.css";
+import Info from "./Info/Info";
+import Figures from "./Figures";
+import Scene from "./Scene";
+import "./Info/styles.css";
 
 const root = createRoot(document.getElementById("root"));
 
@@ -14,6 +16,8 @@ root.render(
         camera={{position:[0,0,5]}}>
         {/* <Experience /> */}
         <Figures />
+        <Scene />
+        <OrbitControls makeDefault />
     </Canvas>
     </>
 );
