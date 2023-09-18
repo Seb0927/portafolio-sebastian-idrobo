@@ -1,7 +1,6 @@
 import { OrbitControls } from "@react-three/drei";
 import {createRoot} from "react-dom/client";
 import {Canvas} from "@react-three/fiber"
-import Experience from "./Experience";
 import Info from "./Info/Info";
 import Figures from "./Figures";
 import Scene from "./Scene";

@@ -23,8 +23,8 @@ canvas{
 .card {
     border-radius: 20px;
     filter: drop-shadow(0 5px 10px 0 #ffffff);
-    width: 400px;
-    height: 180px;
+    width: 30%;
+    height: 200px;
     background-color: #ffffff;
     padding: 0px 20px;
     position: absolute;

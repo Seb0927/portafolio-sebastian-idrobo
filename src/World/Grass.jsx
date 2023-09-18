@@ -22,14 +22,3 @@ const grass = (props) => {
 }
 
 export default grass
-
-/*
-<mesh position-y={-2} rotation-x={-Math.PI / 2} >
-        <planeGeometry attach="geometry" args={[12, 12]} />
-        <meshStandardMaterial attach="material" color="green" />
-      </mesh>
-
-      <mesh ref={boxRef}>
-        <boxGeometry args={[1, 1, 1]} />
-        <meshStandardMaterial {...propsTexture}/>
-      </mesh>*/
