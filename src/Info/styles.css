@@ -8,7 +8,7 @@ body,
     left: 0;
     width: 100%;
     height: 100%;
-    background: ivory;
+    background: black;
 }
 
 canvas{
@@ -34,6 +34,7 @@ canvas{
     top: 50%; /* Center vertically by moving the top edge to the middle */
     left: 3%; /* Center horizontally by moving the left edge to the middle */
     transform: translate(0%, -50%); /* Adjust for element dimensions */
+    max-width:400px
   }
   
   .card::before {

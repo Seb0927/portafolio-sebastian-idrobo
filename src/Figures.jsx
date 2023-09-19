@@ -32,10 +32,6 @@ const Figures = (state, delta) => {
 
   return(
       <>
-      {/* Iluminación de la escena*/}
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[10, 10, 5]} intensity={2} />
-
       {/* Torus (Dona) */}
       <mesh position={[1,0,0.50]} ref={torusRef}>
         <torusGeometry args={[0.1, 0.05]} />
