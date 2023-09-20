@@ -6,7 +6,7 @@ const Office = (props) => {
   return (
     <group {...props} dispose={null}>
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube.geometry}
         material={materials["Material.001"]}
@@ -15,7 +15,7 @@ const Office = (props) => {
         
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube001.geometry}
         material={materials["Material.001"]}
@@ -23,7 +23,7 @@ const Office = (props) => {
         scale={[0.229, 0.332, 0.105]}
       />
       <mesh
-        castShadow
+        //castShadow
         receiveShadow
         geometry={nodes.Plane.geometry}
         material={materials["Material.001"]}
@@ -32,7 +32,7 @@ const Office = (props) => {
         scale={[0.322, 0.424, 0.169]}
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube002.geometry}
         material={materials["Material.001"]}
@@ -48,7 +48,7 @@ const Office = (props) => {
         scale={[0.048, -0.008, 0.131]}
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube004.geometry}
         material={nodes.Cube004.material}
@@ -64,7 +64,7 @@ const Office = (props) => {
         scale={[0.032, 0.102, 0.032]}
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube006.geometry}
         material={nodes.Cube006.material}
@@ -72,7 +72,7 @@ const Office = (props) => {
         scale={[-0.017, -0.046, -0.032]}
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube007.geometry}
         material={nodes.Cube007.material}
@@ -80,7 +80,7 @@ const Office = (props) => {
         scale={[-0.017, -0.046, -0.032]}
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube008.geometry}
         material={nodes.Cube008.material}
@@ -88,7 +88,7 @@ const Office = (props) => {
         scale={[-0.017, -0.046, -0.032]}
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Cube009.geometry}
         material={nodes.Cube009.material}
@@ -96,7 +96,7 @@ const Office = (props) => {
         scale={[-0.017, -0.046, -0.032]}
       />
       <mesh
-        castShadow
+        // castShadow
         receiveShadow
         geometry={nodes.Plane001.geometry}
         material={nodes.Plane001.material}

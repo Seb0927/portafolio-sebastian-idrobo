@@ -8,11 +8,16 @@ import "./Info/styles.css";
 
 const root = createRoot(document.getElementById("root"));
 
+const cameraSettings = {
+    position: [0, 0.5, 5],
+    fov: 60
+}
+
 root.render(
+    
     <>
     <Info name="Sebastián Idrobo A." biography="I am a Software developer student!" />
-    <Canvas
-        camera={{position:[0,0,5]}}>
+    <Canvas camera={cameraSettings} shadows>
         {/* <Experience /> */}
         <Figures />
         <Scene />
