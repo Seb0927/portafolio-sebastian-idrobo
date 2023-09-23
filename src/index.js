@@ -14,11 +14,9 @@ const cameraSettings = {
 }
 
 root.render(
-    
     <>
-    <Info name="Sebastián Idrobo A." biography="I am a Software developer student!" />
+    {/*<Info name="Sebastián Idrobo A." biography="I am a Software developer student!" />*/}
     <Canvas camera={cameraSettings} shadows>
-        {/* <Experience /> */}
         <Figures />
         <Scene />
         <OrbitControls makeDefault />

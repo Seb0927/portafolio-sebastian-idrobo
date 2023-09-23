@@ -23,7 +23,11 @@ const ChibiGuy = (props) => {
   }, [actions])
 
   return (
-    <mesh ref={group} {...props} castShadow>
+    <mesh 
+      ref={group} 
+      {...props} 
+      castShadow
+      onClick={(e)=> handleSign(e)}>
       <primitive object={model} />
     </mesh>
   );

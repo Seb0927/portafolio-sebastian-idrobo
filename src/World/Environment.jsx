@@ -6,7 +6,7 @@ const Environments = () => {
       <Environment preset="night" background={true} />
       <Sparkles
             color="white"
-            count={100}
+            count={50}
             size={16}
             fade={false}
             speed={0.5}

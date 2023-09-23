@@ -61,3 +61,12 @@ canvas{
       color: #ffffff;
   
   }
+
+  .welcome-text  {
+    background: #00000088;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    /* Esto es para que no pueda seleccionar el texto */
+    user-select: none;
+}
