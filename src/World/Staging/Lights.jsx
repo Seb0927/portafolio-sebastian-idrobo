@@ -47,19 +47,19 @@ const Lights = () => {
       <pointLight 
         ref={pointLightRef} 
         position={[-1.5,-0.5,8]} 
-        intensity={6} 
+        intensity={5} 
         color={"white"} 
       />
       <pointLight 
         ref={pointLightRef} 
         position={[-6.5,-0.5,8]} 
-        intensity={6} 
+        intensity={5} 
         color={"white"} 
       />
       <pointLight 
         ref={pointLightRef} 
         position={[-6.5,-0.5,0]} 
-        intensity={6} 
+        intensity={5} 
         color={"white"} 
       />
     </>

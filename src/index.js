@@ -2,7 +2,6 @@ import { OrbitControls } from "@react-three/drei";
 import {createRoot} from "react-dom/client";
 import {Canvas} from "@react-three/fiber"
 import Info from "./Info/Info";
-import Figures from "./Figures";
 import Scene from "./Scene";
 import "./Info/styles.css";
 
@@ -15,9 +14,8 @@ const cameraSettings = {
 
 root.render(
     <>
-    {/*<Info name="Sebastián Idrobo A." biography="I am a Software developer student!" />*/}
+    <Info name="Sebastián Idrobo A." biography="And welcome to my portafolio! Feel free to explore and click wherever you want (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧. Click on myself for disappearing" />
     <Canvas camera={cameraSettings} shadows>
-        <Figures />
         <Scene />
         <OrbitControls makeDefault />
     </Canvas>

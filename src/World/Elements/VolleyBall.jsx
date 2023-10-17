@@ -6,9 +6,9 @@ export function VoleyBall(props) {
 
   const voleyBallBodyRef = useRef();
 
-  let valorX = 2
-  let valorY = 7
-  let valorZ = 2
+  let valorX = 0.1
+  let valorY = 2
+  let valorZ = 0.1
 
   const onHandleVoleyBall = () => {
 
@@ -17,10 +17,6 @@ export function VoleyBall(props) {
       y:valorY,
       z:-valorZ
     }, true)
-
-    valorX = 0
-    valorY = 0
-    valorZ = 0
   }
 
   const [play, setPlay] = useState(false)
